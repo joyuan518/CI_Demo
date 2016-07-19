@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI_Demo.Function", "CI_Demo.Function\CI_Demo.Function.csproj", "{775492DB-84A3-48B0-8ECC-F8AD4B5C0CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI_Demo.UnitTests", "CI_Demo.UnitTests\CI_Demo.UnitTests.csproj", "{AC2334C1-F720-4ACF-ADCB-8811AA1EB16C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution_Items", "Solution_Items", "{AC98A51F-7646-40E0-B6BD-FAFD6068CD41}"
+	ProjectSection(SolutionItems) = preProject
+		SAJ.Resharper.10.0.DotSettings = SAJ.Resharper.10.0.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775492DB-84A3-48B0-8ECC-F8AD4B5C0CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775492DB-84A3-48B0-8ECC-F8AD4B5C0CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775492DB-84A3-48B0-8ECC-F8AD4B5C0CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775492DB-84A3-48B0-8ECC-F8AD4B5C0CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2334C1-F720-4ACF-ADCB-8811AA1EB16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2334C1-F720-4ACF-ADCB-8811AA1EB16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2334C1-F720-4ACF-ADCB-8811AA1EB16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2334C1-F720-4ACF-ADCB-8811AA1EB16C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
